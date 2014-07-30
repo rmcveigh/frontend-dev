@@ -1,5 +1,5 @@
-name = frontend_bare
-description =  frontend_bare theme.
+name = frontend-bare
+description =  frontend-bare theme.
 core = 7.x
 base theme = bare
 

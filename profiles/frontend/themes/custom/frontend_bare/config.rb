@@ -4,7 +4,7 @@ require 'compass/import-once/activate'
 # Set this to the root of your project when deployed:
 http_path = "sites/all/themes/frontend_bare"
 css_dir = "css"
-sass_dir = "sass"
+sass_dir = "scss"
 images_dir = "files"
 javascripts_dir = "js"
 fonts_dir = "fonts"
