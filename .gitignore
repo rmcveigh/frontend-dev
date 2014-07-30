@@ -6,7 +6,11 @@ sites/*/settings*.php
 sites/*/files
 !sites/*/files/default_images
 sites/*/private
-profiles/*/themes/custom/gtli_bare/.sass-cache/
-profiles/*/themes/custom/gtli_bare/Gemfile.lock
+profiles/*/themes/custom/frontend_bare/.sass-cache/
+profiles/*/themes/custom/frontend_bare/Gemfile.lock
 
-profiles/*/themes/custom/gtli_bare/css/*
+profiles/*/themes/custom/frontend_bare/css/*
+
+profiles/*/themes/custom/frontend_bare/bower_components/
+profiles/*/themes/custom/frontend_bare/node_modules/
+profiles/*/themes/custom/frontend_bare/.vendor/bundle

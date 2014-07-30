@@ -1,0 +1,13 @@
+{
+  "generator-drupal-theme": {
+    "projectName": "frontend_bare",
+    "projectSlug": "frontend_bare",
+    "baseTheme": "bare",
+    "sassDir": "sass",
+    "cssDir": "css",
+    "jsDir": "js",
+    "imgDir": "files",
+    "fontsDir": "fonts",
+    "templateDir": "templates"
+  }
+}
