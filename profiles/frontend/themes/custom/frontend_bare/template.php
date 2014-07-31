@@ -3,7 +3,7 @@
  /**
   * hook_preprocess_html(&$vars)
   */
- function bare_subtheme_preprocess_html(&$vars) {
+ function frontend_bare_preprocess_html(&$vars) {
     // Viewport
   $viewport = array(
     '#tag' => 'meta',
