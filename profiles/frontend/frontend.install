@@ -15,6 +15,7 @@ function frontend_install() {
 
     // Enable themes
   $default_theme = "frontend_bare";
+  $admin_theme = 'seven';
   frontend_install_enable_themes($default_theme);
 
     // Insert testing content into the site

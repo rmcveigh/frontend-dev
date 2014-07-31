@@ -1,0 +1,16 @@
+name = Core Setup
+core = 7.x
+package = Frontend
+version = 7.x-1.0
+project = core_setup
+dependencies[] = admin_menu
+dependencies[] = admin_menu_toolbar
+dependencies[] = ctools
+dependencies[] = strongarm
+features[ctools][] = strongarm:strongarm:1
+features[features_api][] = api:2
+features[variable][] = admin_theme
+features[variable][] = install_profile
+features[variable][] = theme_default
+features[variable][] = theme_frontend_bare_settings
+project path = profiles/frontend/modules/features

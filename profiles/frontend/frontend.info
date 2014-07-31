@@ -2,6 +2,8 @@ name = frontend
 description = Install with commonly used features pre-configured.
 version = VERSION
 core = 7.x
+
+; Core
 dependencies[] = block
 dependencies[] = color
 dependencies[] = comment
@@ -18,8 +20,20 @@ dependencies[] = taxonomy
 dependencies[] = dblog
 dependencies[] = search
 dependencies[] = shortcut
-dependencies[] = toolbar
+;dependencies[] = toolbar
 dependencies[] = overlay
 dependencies[] = field_ui
 dependencies[] = file
 dependencies[] = rdf
+
+;Contrib
+
+dependencies[] = admin_menu
+dependencies[] = admin_menu_toolbar
+dependencies[] = ctools
+dependencies[] = features
+dependencies[] = module_filter
+dependencies[] = strongarm
+
+;Features
+dependencies[] = core_setup
